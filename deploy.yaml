@@ -18,6 +18,7 @@ spec:
       containers:
       - name: hello
         image: docker.io/kmaster8/helloworld:2.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
 
